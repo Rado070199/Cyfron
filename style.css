@@ -1,0 +1,19 @@
+body {
+    background-image: url(img/img.jpg);
+}
+.centertext {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+}
+
+.contex {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    color: green;
+    text-align: center;
+}
+
