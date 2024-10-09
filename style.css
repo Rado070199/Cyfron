@@ -17,3 +17,23 @@ body {
     text-align: center;
 }
 
+.class{
+    border: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    padding: 18 30px;
+    color: green;
+    align-items: center;
+    font-weight: 400;
+    border-radius: 3px;
+
+}
+
+.con{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    padding: 30px;
+    color: green;
+    text-align: center;
+}
+
