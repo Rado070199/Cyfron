@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WLx8ZsXxrDwyzY0bN02poOOSDSHeF1ml/pr4blLM+QQ=",
+  "Source": "Cyfron.API",
+  "BasePath": "_content/Cyfron.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
