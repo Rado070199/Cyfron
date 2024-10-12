@@ -134,6 +134,7 @@ footer{
 }
 
 .media {
+    font-family: "Nunito", sans-serif;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -141,4 +142,131 @@ footer{
     background-color: #111;
     padding: 10px;
     font-size: 14px;
+    text-align: left;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+
+.menu-left {
+    color: white;
+    font-size: 24px;
+}
+
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+
+.menu-right .profile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #555;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+.menu-right a:hover {
+    color: #f0f0f0;
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.dropdown {
+    display: none;
+    background-color: #444;
+}
+
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+
+
+menu-container {
+    position: relative;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.bar {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu ul li {
+    margin: 10px 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
 }
