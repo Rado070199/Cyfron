@@ -142,7 +142,7 @@ footer{
     background-color: #111;
     padding: 10px;
     font-size: 14px;
-    text-align: left;
+    align-self: end;
     
 }
 
@@ -156,12 +156,14 @@ nav {
 
 
 .menu-left {
+    font-family: "Nunito", sans-serif;
     color: white;
     font-size: 24px;
 }
 
 
 .menu-right {
+    font-family: "Nunito", sans-serif;
     display: flex;
     align-items: center;
 }
@@ -269,4 +271,12 @@ menu-container {
 .menu ul li a {
     text-decoration: none;
     color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 300px; 
+    padding: 20px;
 }
