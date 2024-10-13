@@ -39,7 +39,7 @@ namespace Cyfron.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("YourEntities");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

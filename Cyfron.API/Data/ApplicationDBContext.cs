@@ -9,6 +9,6 @@ namespace Cyfron.Data
         }
 
         // Dodaj tutaj DbSet dla każdej tabeli, np.:
-        public DbSet<User> YourEntities { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

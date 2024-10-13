@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Cyfron.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241010185849_InitialCreate")]
+    [Migration("20241011175413_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -42,7 +42,7 @@ namespace Cyfron.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("YourEntities");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

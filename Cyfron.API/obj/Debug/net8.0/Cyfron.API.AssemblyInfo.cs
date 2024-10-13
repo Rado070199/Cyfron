@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cyfron.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e816f3692135a847fd3765e7c0341f81b628fb1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28357dd8f3ebd3822f197cff24e5f15cda021b09")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cyfron.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cyfron.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
