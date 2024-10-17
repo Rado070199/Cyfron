@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" type="x-icon" href="img/logo.svg"
+        <link rel="shortcut icon" type="x-icon" href="img/logos.svg"
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,9 +18,24 @@
 
     <div class="hero">
         <nav>
+
+            <div class="contex">
+                <div class="menu-container">
+                    <div class="hamburger" onclick="togglMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                </div>
+
             <img src="img/logo.svg" class="logo">
 
-            <img src="img/user.svg" class="user-pic" onclick="toggleMenu()">
+            <div class="centertext">
+                <font color="red"><h1><marquee>Cyfronex</h1></marquee></font>
+            </div>
+
+            <img src="img/user/user.svg" class="user-pic" onclick="toggleMenu()">
 
             <div class="sub-menu-wrap" id="subMenu">
             <div class="sub-menu">
@@ -28,6 +43,7 @@
                     <img src="img/user.svg">
                     <h2>User</h2>
                 </div>
+
                 <hr>
 
                 <a href="profile.html" class="sub-menu-link">
@@ -51,7 +67,6 @@
                 <a href="index.html" class="sub-menu-link">
                     <img src="img/logout.svg">
                     <p>logout</p>
-                    <Span>></Span>
                 </a>
 
             </div>
@@ -59,13 +74,6 @@
         </nav>
     </div>
 
-    <div class="contex">
-        <div class="menu-container">
-            <div class="hamburger" onclick="togglMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
             <nav id="menu" class="menu">
                 <ul>
                     <li><a href="Class1/Class1.html">Klasa 1</a></li>
@@ -82,10 +90,6 @@
     </div>
         <script src="script.js"></script>
 
-    <div class="centertext">
-        <font color="red"><h1><marquee>Cyfronex</h1></marquee></font>
-    </div>
-
     <div class="contex">
         <h1>OPIS STRONY</h1>
     </div>
@@ -95,21 +99,14 @@
     
     <div class="media">
     <footer>
-        <div class="footerContainer">
+            
             <div class="socialIcons">
                 <a href="https://www.facebook.com/profile.php?id=61567248625532"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/cyfronex/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@cyfronex"><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <div class="footerNav">
-                <ul><li><a href="home.html">Home</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            
-        </div>
-        
-        <div class="footerBottom">
+
+            <div class="footerBottom">
             <p>Copyright &copy;2024 <span class="designer">Radosław Mazur Miłosz Biniek</span></p>
         </div>
     </div>

@@ -60,7 +60,11 @@ footer{
 }
 .socialIcons{
     display: flex;
-    justify-content: center;
+    padding: 10px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .socialIcons a{
     text-decoration: none;
@@ -104,8 +108,9 @@ footer{
     opacity: 1;
 }
 .footerBottom{
+    color: #000;
     background-color: #000;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 .footerBottom p{
@@ -139,7 +144,6 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #111;
     padding: 10px;
     font-size: 14px;
     align-self: end;
@@ -240,13 +244,13 @@ menu-container {
     flex-direction: column;
     width: 30px;
     cursor: pointer;
-    margin: 20px;
+    margin: 1px;
 }
 
 .bar {
     width: 100%;
     height: 4px;
-    background-color: black;
+    background-color: white;
     margin: 5px 0;
 }
 
@@ -287,12 +291,15 @@ menu-container {
     font-family: "Nunito", sans-serif;
     width: 100%;
     color: #525252;
+    text-align: center;
 }
 
 .logo{
     font-family: "Nunito", sans-serif;
     width: 120px;
+    align-items: center;
 }
+
 .user-pic{
     font-family: "Nunito", sans-serif;
     width: 40px;
@@ -456,3 +463,12 @@ menu-container {
     font-family: "Nunito", sans-serif;
     align-items: center;
 }
+
+.footer{
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+  }
+  

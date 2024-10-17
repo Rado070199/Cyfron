@@ -24,8 +24,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="3.1937656"
-     inkscape:cx="68.571094"
-     inkscape:cy="99.41243"
+     inkscape:cx="68.727648"
+     inkscape:cy="99.725539"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -77,6 +77,13 @@
        height="18.636447"
        id="rect2" />
   </defs>
+  <rect
+     style="fill:#ffffff;stroke-width:1.00157"
+     id="rect1"
+     width="180"
+     height="180"
+     x="0"
+     y="0" />
   <text
      xml:space="preserve"
      id="text1"
@@ -84,21 +91,21 @@
      transform="matrix(0.89437129,-0.18463499,0.19995284,0.98747088,37.915292,105.7146)"><tspan
        x="12.210938"
        y="50.068986"
-       id="tspan17"><tspan
+       id="tspan31"><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#094b9d"
-         id="tspan2">A2</tspan><tspan
+         id="tspan1">A2</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#9f0b61"
-         id="tspan3">+</tspan><tspan
+         id="tspan7">+</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#43159d"
-         id="tspan4">B2</tspan><tspan
+         id="tspan14">B2</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif"
-         id="tspan5"> </tspan><tspan
+         id="tspan20"> </tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#a7730b"
-         id="tspan6">=</tspan><tspan
+         id="tspan21">=</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif"
-         id="tspan15"> </tspan><tspan
+         id="tspan22"> </tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#bf0b33"
-         id="tspan16">C2</tspan></tspan></text>
+         id="tspan23">C2</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:24px;line-height:0.8;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#bf0b33;fill-opacity:1;stroke-width:1.00157"
@@ -130,17 +137,17 @@
      transform="rotate(16.757695,-49.010236,66.420906)"><tspan
        x="116.78906"
        y="61.138544"
-       id="tspan23"><tspan
+       id="tspan37"><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0c64c6"
-         id="tspan18">15</tspan><tspan
+         id="tspan32">15</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#be1a00"
-         id="tspan19">*</tspan><tspan
+         id="tspan33">*</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#f4f616"
-         id="tspan20">3</tspan><tspan
+         id="tspan34">3</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#f9006b"
-         id="tspan21">=</tspan><tspan
+         id="tspan35">=</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#48ed0c"
-         id="tspan22">45</tspan></tspan></text>
+         id="tspan36">45</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text23"
@@ -148,29 +155,29 @@
      transform="rotate(13.197978,-137.63167,-215.82612)"><tspan
        x="90"
        y="109.97617"
-       id="tspan35"><tspan
+       id="tspan63"><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#e56805"
-         id="tspan24">V</tspan><tspan
+         id="tspan38">V</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#c3059f"
-         id="tspan25">=</tspan><tspan
+         id="tspan39">=</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0c42ed"
-         id="tspan26">a</tspan><tspan
+         id="tspan40">a</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif"
-         id="tspan27"> </tspan><tspan
+         id="tspan41"> </tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ed4e0c"
-         id="tspan28">x</tspan><tspan
+         id="tspan42">x</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif"
-         id="tspan29"> </tspan><tspan
+         id="tspan47"> </tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#980159"
-         id="tspan30">b</tspan><tspan
+         id="tspan48">b</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif"
-         id="tspan31"> </tspan><tspan
+         id="tspan49"> </tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#bdab0a"
-         id="tspan32">x</tspan><tspan
+         id="tspan55">x</tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif"
-         id="tspan33"> </tspan><tspan
+         id="tspan56"> </tspan><tspan
          style="font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#af0707"
-         id="tspan34">h</tspan></tspan></text>
+         id="tspan57">h</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text48"
@@ -178,17 +185,17 @@
      transform="rotate(26.223895,273.86148,143.84517)"><tspan
        x="79.228516"
        y="90.4873"
-       id="tspan41"><tspan
+       id="tspan78"><tspan
    style="fill:#864f05"
-   id="tspan36">O</tspan><tspan
+   id="tspan64">O</tspan><tspan
    style="fill:#96004d"
-   id="tspan37">=</tspan> <tspan
+   id="tspan65">=</tspan> <tspan
    style="fill:#136704"
-   id="tspan38">4</tspan> <tspan
+   id="tspan75">4</tspan> <tspan
    style="fill:#820578"
-   id="tspan39">x</tspan> <tspan
+   id="tspan76">x</tspan> <tspan
    style="fill:#3e0693"
-   id="tspan40">a</tspan></tspan></text>
+   id="tspan77">a</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text57"
@@ -196,17 +203,17 @@
      transform="rotate(-17.098667,96.18755,110.48052)"><tspan
        x="17.847656"
        y="68.698723"
-       id="tspan47"><tspan
+       id="tspan84"><tspan
    style="fill:#052b72"
-   id="tspan42">O</tspan><tspan
+   id="tspan79">O</tspan><tspan
    style="fill:#700567"
-   id="tspan43">=</tspan> <tspan
+   id="tspan80">=</tspan> <tspan
    style="fill:#9d3805"
-   id="tspan44">4</tspan> <tspan
+   id="tspan81">4</tspan> <tspan
    style="fill:#8c9105"
-   id="tspan45">x</tspan> <tspan
+   id="tspan82">x</tspan> <tspan
    style="fill:#054d82"
-   id="tspan46">a</tspan></tspan></text>
+   id="tspan83">a</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text65"
@@ -214,23 +221,23 @@
      transform="rotate(-17.828278,15.059387,94.004985)"><tspan
        x="35.380859"
        y="120.07568"
-       id="tspan57"><tspan
+       id="tspan94"><tspan
    style="fill:#822405"
-   id="tspan48">O</tspan> <tspan
+   id="tspan85">O</tspan> <tspan
    style="fill:#1b0373"
-   id="tspan49">=</tspan> <tspan
+   id="tspan86">=</tspan> <tspan
    style="fill:#05885b"
-   id="tspan50">2</tspan> <tspan
+   id="tspan87">2</tspan> <tspan
    style="fill:#4e7c05"
-   id="tspan51">x</tspan> <tspan
+   id="tspan88">x</tspan> <tspan
    style="fill:#058278"
-   id="tspan52">(</tspan><tspan
+   id="tspan89">(</tspan><tspan
    style="fill:#820505"
-   id="tspan53">a</tspan><tspan
+   id="tspan90">a</tspan><tspan
    style="fill:#8e4105"
-   id="tspan54">+</tspan><tspan
+   id="tspan91">+</tspan><tspan
    style="fill:#055086"
-   id="tspan55">b</tspan><tspan
+   id="tspan92">b</tspan><tspan
    style="fill:#0b8205"
-   id="tspan56">)</tspan></tspan></text>
+   id="tspan93">)</tspan></tspan></text>
 </svg>
