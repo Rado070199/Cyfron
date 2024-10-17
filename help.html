@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Wsparcia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="support-form">
+        <h2>Skontaktuj się z nami</h2>
+        <form action="support.html" method="POST">
+            <label for="name">Imię i Nazwisko:</label>
+            <input type="text" id="name" name="name" placeholder="Wprowadź swoje imię" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Wprowadź swój adres e-mail" required>
+
+            <label for="subject">Topic:</label>
+            <input type="text" id="subject" name="subject" placeholder="Wprowadź temat" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Wprowadź wiadomość" rows="5" required></textarea>
+
+            <button type="submit">Wyślij Wiadomość</button>
+        </form>
+    </div>
+</body>
+</html>

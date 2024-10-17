@@ -389,3 +389,70 @@ menu-container {
     font-family: "Nunito", sans-serif;
     font-weight: 600;
 }
+
+
+.support-form {
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.support-form h2 {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.support-form label {
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+.support-form input, 
+.support-form textarea {
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.support-form button {
+    font-family: "Nunito", sans-serif;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.support-form button:hover {
+    font-family: "Nunito", sans-serif;
+    background-color: green;
+}
+
+.Support{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: green;
+}
+
+.g-recaptcha{
+    font-family: "Nunito", sans-serif;
+    align-items: center;
+}
+
+#captcha{
+    font-family: "Nunito", sans-serif;
+    align-items: center;
+}
