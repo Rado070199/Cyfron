@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            font-family: "Nunito", sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid #4CAF50; /* Green color */
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #ffffff; /* White background */
+            border: 2px solid #4CAF50; /* Green border */
+            border-bottom: none;
+            margin-right: 5px;
+            transition: background-color 0.3s;
+        }
+        .tab:hover {
+            background-color: #e7f9e7; /* Light green on hover */
+        }
+        .active {
+            background-color: #dfffd6; /* Light green for active tab */
+            font-weight: bold;
+        }
+        .tab-content {
+            padding: 20px;
+            border: 2px solid #4CAF50; /* Green border */
+            background-color: #ffffff; /* White background */
+            margin-top: -2px;
+        }
+        input[type="text"], input[type="number"], input[type="date"], input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #4CAF50; /* Green border */
+            border-radius: 4px;
+        }
+        input[type="text"]:focus, input[type="number"]:focus, input[type="date"]:focus {
+            border-color: #45a049; /* Darker green on focus */
+            outline: none; /* Remove outline */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Profile Settings</h1>
+<div class="tabs">
+    <div class="tab active" onclick="showTab('age')">Set Age</div>
+    <div class="tab" onclick="showTab('profile-pic')">Change Profile Picture</div>
+    <div class="tab" onclick="showTab('name')">Change Name</div>
+    <div class="tab" onclick="showTab('dob')">Change Date of Birth</div>
+    <div class="tab" onclick="showTab('social')">Link Social Media</div>
+</div>
+
+<div id="age" class="tab-content">
+    <h2>Set Age</h2>
+    <input type="number" placeholder="Enter your age" min="1" max="120">
+</div>
+
+<div id="profile-pic" class="tab-content" style="display: none;">
+    <h2>Change Profile Picture</h2>
+    <input type="file" accept="image/*">
+</div>
+
+<div id="name" class="tab-content" style="display: none;">
+    <h2>Change Name</h2>
+    <input type="text" placeholder="Enter First Name">
+    <input type="text" placeholder="Enter Last Name">
+</div>
+
+<div id="dob" class="tab-content" style="display: none;">
+    <h2>Change Date of Birth</h2>
+    <input type="date">
+</div>
+
+<div id="social" class="tab-content" style="display: none;">
+    <h2>Link Social Media</h2>
+    <input type="text" placeholder="Link to Facebook">
+    <input type="text" placeholder="Link to Instagram">
+</div>
+
+<script>
+    function showTab(tabId) {
+        // Hide all tab contents
+        var contents = document.querySelectorAll('.tab-content');
+        contents.forEach(function(content) {
+            content.style.display = 'none';
+        });
+
+        // Mark which tab is active
+        var tabs = document.querySelectorAll('.tab');
+        tabs.forEach(function(tab) {
+            tab.classList.remove('active');
+        });
+
+        // Show the selected tab content
+        document.getElementById(tabId).style.display = 'block';
+        document.querySelector('.tab[onclick="showTab(\'' + tabId + '\')"]').classList.add('active');
+    }
+</script>
+
+</body>
+</html>
