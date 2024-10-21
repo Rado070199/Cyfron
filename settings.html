@@ -92,19 +92,17 @@
 
 <script>
     function showTab(tabId) {
-        // Hide all tab contents
+        
         var contents = document.querySelectorAll('.tab-content');
         contents.forEach(function(content) {
             content.style.display = 'none';
         });
 
-        // Mark which tab is active
         var tabs = document.querySelectorAll('.tab');
         tabs.forEach(function(tab) {
             tab.classList.remove('active');
         });
 
-        // Show the selected tab content
         document.getElementById(tabId).style.display = 'block';
         document.querySelector('.tab[onclick="showTab(\'' + tabId + '\')"]').classList.add('active');
     }

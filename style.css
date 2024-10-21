@@ -468,7 +468,7 @@ menu-container {
     text-align: left;
 }
 
-.container {
+.conteinr {
     text-align: center;
   }
   
@@ -478,4 +478,10 @@ menu-container {
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+.buycoffe{
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    color: green;
 }
