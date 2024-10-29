@@ -1,4 +1,5 @@
 -- Created Classes table
+-- DROP TABLE Classes;
 CREATE TABLE Classes (
     ClassId INT PRIMARY KEY IDENTITY,
     ClassName NVARCHAR(20) NOT NULL,
@@ -37,8 +38,9 @@ EXEC sp_addextendedproperty
     @level2type = N'COLUMN', @level2name = N'Description';
 
 -- Created Topics table
+-- DROP TABLE Topics;
 CREATE TABLE Topics (
-    TopicId INT PRIMARY KEY,
+    TopicId INT PRIMARY KEY IDENTITY,
     ClassId INT FOREIGN KEY REFERENCES Classes(ClassId),
     TopicName NVARCHAR(1000) NOT NULL,
     Description NVARCHAR(MAX) NOT NULL 
@@ -84,8 +86,9 @@ EXEC sp_addextendedproperty
     @level2type = N'COLUMN', @level2name = N'Description';
 
 -- Created Exercises table
+-- DROP TABLE Exercises;
 CREATE TABLE Exercises (
-    ExerciseId INT PRIMARY KEY,
+    ExerciseId INT PRIMARY KEY IDENTITY,
     TopicId INT FOREIGN KEY REFERENCES Topics(TopicId),
     ExerciseText NVARCHAR(MAX),
     CorrectAnswer NVARCHAR(1000),
